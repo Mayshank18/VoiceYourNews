@@ -14,7 +14,7 @@ const App=()=> {
     alanBtn({
       key:alanKey,
       onCommand: ({command, articles,number})=>{
-        if(command==='newHeadlines'){
+        if(command==='newsHeadlines'){
           setNewsArticles(articles);
           setActiveArticle(-1);
         }
